@@ -17,16 +17,20 @@ body {
 }
 
 
-.card-main{
-    max-width: 900px;
-    width: 900px;
-    height: 550px;
-    background-color: rgb(4, 23, 190);
-    border-top-right-radius: 11px;
-    border-top-left-radius: 11px;
-    border-bottom-right-radius: 11px;
-    border-bottom-left-radius: 11px;
-    
+.card-main {
+  max-width: 900px;
+  width: 90%;
+  height: 550px;
+  background: linear-gradient(135deg, rgb(4, 23, 190), rgb(26, 115, 232));
+  border-radius: 11px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+}
+
+.card-main:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
 }
 
 .banner-gif{
