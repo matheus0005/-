@@ -6,14 +6,16 @@
     font-family: 'Mikado', sans-serif;
 }
 
-body{
-    height: 100vh;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(24, 0, 113);
+body {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #180071;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
 }
+
 
 .card-main{
     max-width: 900px;
