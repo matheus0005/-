@@ -32,19 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
         profilePhoto.style.boxShadow = "none";
     });
 
-    // Sosyal medya butonlarına hover efekti
-    socialLinks.forEach(link => {
-        link.addEventListener("mouseover", function () {
-            link.style.transform = "scale(1.2)";
-            link.style.color = "#ffd700"; // Altın sarısı renk
-        });
-
-        link.addEventListener("mouseleave", function () {
-            link.style.transform = "scale(1)";
-            link.style.color = "#fff";
-        });
-    });
-
     // Spotify kart hover efekti
     spotifyCard.addEventListener("mouseover", function () {
         spotifyCard.style.transform = "translateY(-5px)";
