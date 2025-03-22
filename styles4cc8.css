@@ -12,14 +12,14 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: rgb(25, 25, 112);
+    background-color: rgb(24, 0, 113);
 }
 
 .card-main{
     max-width: 900px;
     width: 900px;
     height: 550px;
-    background-color: rgb(50, 100, 200);
+    background-color: rgb(4, 23, 190);
     border-top-right-radius: 11px;
     border-top-left-radius: 11px;
     border-bottom-right-radius: 11px;
